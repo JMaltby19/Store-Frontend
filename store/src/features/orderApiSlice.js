@@ -4,8 +4,7 @@ import { getTokenFromLocalStorage } from "../utils"; // Adjust the path as neces
 export const orderApiSlice = createApi({
 	reducerPath: "orderApiSlice",
 	baseQuery: fetchBaseQuery({
-		baseUrl:
-			"https://bpbsdsgcweyqzmxdthyb-mysql.services.clever-cloud.com/api/",
+		baseUrl: "https://store-backend-wheat.vercel.app/api/",
 		// prepareHeaders: (headers) => {
 		// 	const token = getTokenFromLocalStorage();
 		// 	if (token) {

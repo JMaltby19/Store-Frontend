@@ -4,8 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const userApiSlice = createApi({
 	reducerPath: "userApiSlice",
 	baseQuery: fetchBaseQuery({
-		baseUrl:
-			"https://bpbsdsgcweyqzmxdthyb-mysql.services.clever-cloud.com/api/",
+		baseUrl: "https://store-backend-wheat.vercel.app/api/",
 	}),
 	endpoints: (builder) => ({
 		login: builder.mutation({
