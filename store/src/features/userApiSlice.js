@@ -3,7 +3,9 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const userApiSlice = createApi({
 	reducerPath: "userApiSlice",
-	baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:6001/api/" }),
+	baseQuery: fetchBaseQuery({
+		baseUrl: "http://bpbsdsgcweyqzmxdthyb-mysql.services.clever-cloud.com/api/",
+	}),
 	endpoints: (builder) => ({
 		login: builder.mutation({
 			query: (data) => ({
