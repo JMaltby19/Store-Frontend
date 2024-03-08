@@ -4,7 +4,8 @@ import { getTokenFromLocalStorage } from "../utils"; // Adjust the path as neces
 export const orderApiSlice = createApi({
 	reducerPath: "orderApiSlice",
 	baseQuery: fetchBaseQuery({
-		baseUrl: "http://bpbsdsgcweyqzmxdthyb-mysql.services.clever-cloud.com/api/",
+		baseUrl:
+			"https://bpbsdsgcweyqzmxdthyb-mysql.services.clever-cloud.com/api/",
 		// prepareHeaders: (headers) => {
 		// 	const token = getTokenFromLocalStorage();
 		// 	if (token) {
