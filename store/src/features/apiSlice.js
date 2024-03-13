@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const apiSlice = createApi({
 	reducerPath: "apiSlice",
 	baseQuery: fetchBaseQuery({
-		baseUrl: "https://store-backend-wheat.vercel.app/api/",
+		baseUrl: "https://urchin-app-quo66.ondigitalocean.app/api/",
 	}),
 	endpoints: (builder) => ({
 		getProducts: builder.query({

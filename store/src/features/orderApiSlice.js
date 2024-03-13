@@ -4,7 +4,7 @@ import { getTokenFromLocalStorage } from "../utils"; // Adjust the path as neces
 export const orderApiSlice = createApi({
 	reducerPath: "orderApiSlice",
 	baseQuery: fetchBaseQuery({
-		baseUrl: "https://store-backend-wheat.vercel.app/api/",
+		baseUrl: "https://urchin-app-quo66.ondigitalocean.app/api/",
 		// prepareHeaders: (headers) => {
 		// 	const token = getTokenFromLocalStorage();
 		// 	if (token) {
