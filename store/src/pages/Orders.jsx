@@ -74,13 +74,13 @@ export const Orders = () => {
 									Status: {order.paymentStatus}
 								</p>
 							</div>
-							<div className="flex">
+							<div className="flex justify-center items-center">
 								{order.products.map((product) => (
 									<img
 										key={product.productId}
 										src={product.imageUrl}
 										alt={product.name}
-										className=" w-32 h-32 object-cover rounded-md ml-2"
+										className=" w-24 h-24 md:w-32 md:h-32 object-cover rounded-md md:ml-2"
 									/>
 								))}
 							</div>
